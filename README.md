@@ -1,4 +1,5 @@
 Visão Geral
+
     Este projeto consiste no desenvolvimento de uma aplicação móvel para gerenciar uma lista de contatos pessoais usando Flutter com um banco de dados SQLite local. A aplicação permite realizar operações CRUD (Create, Read, Update, Delete) em uma tabela de contatos, que contém informações como Nome, Telefone e E-mail.
 
 Estrutura do Projeto
@@ -45,11 +46,13 @@ Implementação do Banco de Dados
         Delete: Função delete para remover contatos do banco de dados.
 
 Dependências Utilizadas
+
     Flutter: Framework para desenvolvimento da aplicação móvel.
     sqflite: Pacote para interação com o banco de dados SQLite em Flutter.
     path_provider: Para obter caminhos de diretório no dispositivo.
 
 Configuração do Ambiente
+
     Flutter SDK: Instalado e configurado de acordo com a documentação oficial do Flutter.
     Android SDK: Configurado para desenvolvimento Android (não requerido o Android Studio para este projeto, mas pode ser usado).
     Configuração do Projeto: Variáveis de ambiente como ANDROID_HOME e JAVA_HOME configuradas para o ambiente de desenvolvimento.
@@ -61,6 +64,7 @@ Execução do Projeto
         No terminal, navegue até o diretório do projeto e execute flutter run.
 
 Conclusão e Desafios Enfrentados
+
     Conclusão: A aplicação foi bem-sucedida em implementar as operações básicas de CRUD para gerenciamento de contatos, oferecendo uma interface intuitiva e funcional.
 
 Desafios:
